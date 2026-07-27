@@ -11,7 +11,7 @@ public class validade_senha {
 			}
 		System.out.println("Acesso Permitido");
 	
-	
+	sc.close();
 	
 	
 	
