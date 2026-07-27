@@ -14,11 +14,11 @@ public class TiposGasolina {
 
 		while (tipo != 4) {
 			if (tipo == 1) {
-				alcool = alcool + 1;
+				alcool += 1;
 			} else if (tipo == 2) {
-				gasolina = gasolina + 1;
+				gasolina += 1;
 			} else if (tipo == 3) {
-				diesel = diesel + 1;
+				diesel += 1;
 			}
 
 			tipo = sc.nextInt();
