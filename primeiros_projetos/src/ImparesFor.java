@@ -14,12 +14,12 @@ public class ImparesFor {
 				}
 			}
 		}
-		
+
 		else {
-				System.out.println("valor deve ser entre 1 e 1000");
-				valor = sc.nextInt();
-			}
-		
+			System.out.println("valor deve ser entre 1 e 1000");
+			valor = sc.nextInt();
+		}
+
 		sc.close();
 	}
 }
